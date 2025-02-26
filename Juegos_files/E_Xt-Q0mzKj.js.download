@@ -1,0 +1,38 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["PxumD"]); }
+
+__d("XGamesInfiniteCarouselAsyncController",["XController"],(function a(b,c,d,e,f,g){f.exports=c("XController").create("\/games\/async\/infinitecarousel\/",{id:{type:"String",required:true},referral_objects:{type:"StringVector",required:true},index:{type:"Int"},context:{type:"String"}});}),null);
+__d('GamesHubInfiniteSliderLoader',['AsyncRequest','DataStore','Event','XGamesInfiniteCarouselAsyncController','tidyEvent'],(function a(b,c,d,e,f,g){var h='GamesHubInfiniteSliderLoader';i.init=function(j,k,l,m,n){'use strict';new i(j,k,l,m,n);};function i(j,k,l,m,n){'use strict';this.$GamesHubInfiniteSliderLoader1=j;this.$GamesHubInfiniteSliderLoader2=k;this.$GamesHubInfiniteSliderLoader3=l;this.$GamesHubInfiniteSliderLoader4=m.reverse();this.$GamesHubInfiniteSliderLoader5=n;this.$GamesHubInfiniteSliderLoader6=j.getNode().id;c('DataStore').set(h,this.$GamesHubInfiniteSliderLoader6,this);c('tidyEvent')(c('Event').listen(j.getNextLink(),'click',this.$GamesHubInfiniteSliderLoader7.bind(this)));var o=c('tidyEvent')(c('Event').listen(j.getNextLink(),'mouseover',function(){o.remove();this.$GamesHubInfiniteSliderLoader7();}.bind(this).bind(this)));}i.prototype.$GamesHubInfiniteSliderLoader7=function(){'use strict';var j=[];for(var k=0;k<this.$GamesHubInfiniteSliderLoader3&&this.$GamesHubInfiniteSliderLoader4.length>0;k++)j.push(this.$GamesHubInfiniteSliderLoader4.pop());if(j.length===0){this.$GamesHubInfiniteSliderLoader1.endCarousel();return;}var l=c('XGamesInfiniteCarouselAsyncController').getURIBuilder().setStringVector('referral_objects',j).setString('id',this.$GamesHubInfiniteSliderLoader6).setInt('index',this.$GamesHubInfiniteSliderLoader2).setString('context',this.$GamesHubInfiniteSliderLoader5).getURI();if(this.$GamesHubInfiniteSliderLoader2)this.$GamesHubInfiniteSliderLoader2+=j.length;new (c('AsyncRequest'))(l).send();};i.prototype.$GamesHubInfiniteSliderLoader8=function(j){'use strict';this.$GamesHubInfiniteSliderLoader1.addItems(j);if(this.$GamesHubInfiniteSliderLoader4.length===0)this.$GamesHubInfiniteSliderLoader1.endCarousel();};i.update=function(j,k){'use strict';var l=c('DataStore').get(h,j);l.$GamesHubInfiniteSliderLoader8(k);};f.exports=i;}),null);
+
+}
+/*
+     FILE ARCHIVED ON 00:25:03 May 18, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:18:46 Feb 25, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.651
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.01
+  esindex: 0.012
+  cdx.remote: 14.582
+  LoadShardBlock: 123.215 (3)
+  PetaboxLoader3.datanode: 101.777 (4)
+  load_resource: 309.32
+  PetaboxLoader3.resolve: 259.288
+*/

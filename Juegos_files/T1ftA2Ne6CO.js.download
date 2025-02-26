@@ -1,0 +1,42 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["W7bNy"]); }
+
+__d('GamesArcadeLaunchButton',['AppInstallLogger','AppInstallLoggerEvents','Event'],(function a(b,c,d,e,f,g){'use strict';var h={registerListener:function i(j,k,l){c('Event').listen(k,'click',function(){c('AppInstallLogger').log(c('AppInstallLoggerEvents').ARCADE_MIGRATION_LAUNCH_CLICKED,j,{fb_source_override:l});});}};f.exports=h;}),null);
+__d('GameroomDownloadInstructionsDialog.react',['cx','fbt','DTSG','FormSubmit','Image.react','Link.react','React','URI','XUICloseButton.react','XUIDialog.react','XUIDialogBody.react'],(function a(b,c,d,e,f,g,h,i){'use strict';var j,k,l=700,m=164,n='/images/games/desktop-app/arrow.gif',o='/images/appcenter/icons/downloadGamesDesktopApp.png',p='/help/1742517309347170',q='https://web.archive.org/web/20170501055254/https://www.facebook.com/terms.php/',r='https://web.archive.org/web/20170501055254/https://www.facebook.com/full_data_use_policy/';j=babelHelpers.inherits(s,c('React').PureComponent);k=j&&j.prototype;function s(){var v,w;for(var x=arguments.length,y=Array(x),z=0;z<x;z++)y[z]=arguments[z];return w=(v=k.constructor).call.apply(v,[this].concat(y)),this.$GameroomDownloadInstructionsDialog2=function(){var aa=this.$GameroomDownloadInstructionsDialog1;if(aa&&aa.submit)c('FormSubmit').send(aa);}.bind(this),w;}s.prototype.render=function(){var v=this.props.downloadURI,w=i._("Close"),x=c('React').createElement(c('Link.react'),{href:!this.props.isPostDownload?v:undefined,onClick:this.$GameroomDownloadInstructionsDialog2},i._("click here to try again")),y=this.props.isPostDownload?c('React').createElement('form',{action:v,className:"_4opz",method:'post',ref:function(aa){this.$GameroomDownloadInstructionsDialog1=aa;}.bind(this)},c('React').createElement('input',{name:'fb_dtsg',type:'hidden',value:c('DTSG').getToken()}),x):x,z=i._("If the download hasn't started, {click here to try again}.",[i.param('click here to try again',y)]);return c('React').createElement(c('XUIDialog.react'),{className:"_151v",onToggle:this.props.onToggle,shown:this.props.dialogShown,width:l},c('React').createElement(t,null),c('React').createElement(c('XUIDialogBody.react'),null,c('React').createElement(c('XUICloseButton.react'),{className:"_151o",onClick:this.props.onCloseClick,shade:'dark',title:w},w),c('React').createElement(c('Image.react'),{src:o}),c('React').createElement('div',{className:"_151r"},i._("Thank you for downloading Facebook Gameroom")),c('React').createElement('div',{className:"_151u"},c('React').createElement('div',null,i._("Please click {FacebookGameroomSetup.exe} to install.",[i.param('FacebookGameroomSetup.exe',c('React').createElement('strong',null,'FacebookGameroom.exe'))])),c('React').createElement('div',null,z)),c('React').createElement(u,null)));};var t=function v(){return c('React').createElement('div',{className:"_16a2"},c('React').createElement('div',{className:"_16a3"},i._("Click to install")),c('React').createElement(c('Image.react'),{height:m,src:n,width:m}));},u=function v(){return c('React').createElement('div',{className:"_tio"},i._("By installing, you agree to our {Terms} and {Privacy Policy}. Installing Gameroom might also install Adobe Flash Player, which powers many of the games. We will update Gameroom and Adobe Flash Player automatically. You can uninstall Gameroom and Flash Player at any time. {Learn More}.",[i.param('Terms',c('React').createElement(c('Link.react'),{href:new (c('URI'))(q),target:'_blank',type:'subtle'},'Terms')),i.param('Privacy Policy',c('React').createElement(c('Link.react'),{href:new (c('URI'))(r),target:'_blank',type:'subtle'},'Privacy Policy')),i.param('Learn More',c('React').createElement(c('Link.react'),{href:new (c('URI'))(p),target:'_blank',type:'subtle'},'Learn more'))]));};f.exports=s;}),null);
+__d("XGamesDesktopAppDownloadController",["XController"],(function a(b,c,d,e,f,g){f.exports=c("XController").create("\/games\/desktopapp\/download\/",{app_id:{type:"Int"},fbsource:{type:"Int"},ref:{type:"String"},video_id:{type:"Int"}});}),null);
+__d("XGamesDesktopAppDownloadWithNotificationController",["XController"],(function a(b,c,d,e,f,g){f.exports=c("XController").create("\/games\/desktopapp\/download_with_notification\/",{app_id:{type:"Int"},fbsource:{type:"Int"},ref:{type:"String"},video_id:{type:"Int"}});}),null);
+__d('GameroomDownloadButton.react',['DTSG','GameroomDownloadButtonView.react','GameroomDownloadInstructionsDialog.react','React','XGamesDesktopAppDownloadController','XGamesDesktopAppDownloadWithNotificationController'],(function a(b,c,d,e,f,g){'use strict';var h,i;h=babelHelpers.inherits(j,c('React').PureComponent);i=h&&h.prototype;function j(){i.constructor.call(this);this.$GameroomDownloadButton1=function(){this.setState({dialogShown:true});}.bind(this);this.__onCloseClick=function(){this.setState({dialogShown:false});}.bind(this);this.__onToggle=function(k){this.setState({dialogShown:k});}.bind(this);this.state={dialogShown:false};}j.prototype.render=function(){var k=this.props.isLoggedInUser?c('XGamesDesktopAppDownloadWithNotificationController').getURIBuilder():c('XGamesDesktopAppDownloadController').getURIBuilder();k.setInt('app_id',this.props.appID).setInt('fbsource',this.props.fbsource).setInt('video_id',this.props.videoID);var l=k.getURI().setDomain('www.facebook.com').setProtocol('https'),m=this.props.isLoggedInUser,n=c('React').createElement(c('GameroomDownloadButtonView.react'),{canDownload:this.props.canDownload,cta:this.props.cta,onClick:this.$GameroomDownloadButton1,size:this.props.size,uri:!m?l:undefined,useFreeDownloadText:this.props.useFreeDownloadText}),o=m?c('React').createElement('form',{action:l,method:'post'},c('React').createElement('input',{name:'fb_dtsg',type:'hidden',value:c('DTSG').getToken()}),n):n;return c('React').createElement('div',null,c('React').createElement(c('GameroomDownloadInstructionsDialog.react'),{appID:this.props.appID,dialogShown:this.state.dialogShown,downloadURI:l,fbsource:this.props.fbsource,isPostDownload:m,onCloseClick:this.__onCloseClick,onToggle:this.__onToggle}),o);};j.defaultProps={redirectLandingPage:true,useFreeDownloadText:false};f.exports=j;}),null);
+__d('GameroomDownloadLink.react',['fbt','GameroomDownloadInstructionsDialog.react','Link.react','React','XGamesDesktopAppDownloadController'],(function a(b,c,d,e,f,g,h){'use strict';var i,j;i=babelHelpers.inherits(k,c('React').PureComponent);j=i&&i.prototype;function k(){j.constructor.call(this);this.state={dialogShown:false};}k.prototype.render=function(){var l=c('XGamesDesktopAppDownloadController').getURIBuilder().setInt('fbsource',this.props.fbsource).getURI();return c('React').createElement('div',null,c('React').createElement(c('GameroomDownloadInstructionsDialog.react'),{dialogShown:this.state.dialogShown,downloadURI:l,isPostDownload:false,onCloseClick:function(){return this.setState({dialogShown:false});}.bind(this),onToggle:function(m){return this.setState({dialogShown:m});}.bind(this),showBlinkyArrow:this.props.showBlinkyArrow}),c('React').createElement(c('Link.react'),{href:l,onClick:function(){return this.setState({dialogShown:true});}.bind(this)},h._("Download Gameroom")));};f.exports=k;}),null);
+
+}
+/*
+     FILE ARCHIVED ON 05:52:54 May 01, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:09:37 Feb 25, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.478
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 39.285
+  LoadShardBlock: 650.561 (3)
+  PetaboxLoader3.datanode: 675.152 (5)
+  load_resource: 394.65 (2)
+  PetaboxLoader3.resolve: 247.463 (2)
+*/
