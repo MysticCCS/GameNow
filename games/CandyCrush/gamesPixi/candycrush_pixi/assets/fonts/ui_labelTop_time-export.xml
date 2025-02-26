@@ -1,0 +1,24 @@
+<font>
+	<info face="ui_labelTop_time-export" size="30" />
+	<common lineHeight="30" scaleW="64" scaleH="64" pages="1" />
+	<pages>
+		<page id="0" file="ui_labelTop_time-export.png" />
+	</pages>
+	<chars count="13">
+		<char id="48" x="0" y="0" width="17" height="18" xoffset="0" yoffset="12" xadvance="18" /><!-- 0 -->
+		<char id="49" x="51" y="0" width="10" height="19" xoffset="0" yoffset="12" xadvance="11" /><!-- 1 -->
+		<char id="50" x="19" y="0" width="15" height="18" xoffset="0" yoffset="12" xadvance="16" /><!-- 2 -->
+		<char id="51" x="18" y="20" width="15" height="18" xoffset="0" yoffset="12" xadvance="16" /><!-- 3 -->
+		<char id="52" x="34" y="40" width="15" height="18" xoffset="0" yoffset="12" xadvance="16" /><!-- 4 -->
+		<char id="53" x="17" y="40" width="15" height="18" xoffset="0" yoffset="12" xadvance="16" /><!-- 5 -->
+		<char id="54" x="0" y="20" width="16" height="18" xoffset="0" yoffset="12" xadvance="17" /><!-- 6 -->
+		<char id="55" x="36" y="0" width="13" height="18" xoffset="0" yoffset="12" xadvance="14" /><!-- 7 -->
+		<char id="56" x="35" y="20" width="14" height="18" xoffset="0" yoffset="12" xadvance="15" /><!-- 8 -->
+		<char id="57" x="0" y="40" width="15" height="18" xoffset="0" yoffset="12" xadvance="16" /><!-- 9 -->
+		<char id="58" x="51" y="21" width="7" height="14" xoffset="0" yoffset="16" xadvance="8" /><!-- : -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="6" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="48" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

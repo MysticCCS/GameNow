@@ -1,0 +1,473 @@
+{
+  "resources": [
+    "..\\..\\dist\\assets\\sounds\\sfx.ogg",
+    "..\\..\\dist\\assets\\sounds\\sfx.mp3"
+  ],
+  "spritemap": {
+    "SA_CandyLand_1001": {
+      "start": 0,
+      "end": 0.2618140589569161,
+      "loop": false
+    },
+    "SA_CandyLand_1002": {
+      "start": 2,
+      "end": 2.2890702947845805,
+      "loop": false
+    },
+    "SA_CandyLand_1003": {
+      "start": 4,
+      "end": 4.925714285714285,
+      "loop": false
+    },
+    "SA_CandyLand_1004": {
+      "start": 6,
+      "end": 6.718503401360544,
+      "loop": false
+    },
+    "SA_Combo_1": {
+      "start": 8,
+      "end": 8.490022675736961,
+      "loop": false
+    },
+    "SA_Combo_10": {
+      "start": 10,
+      "end": 10.62734693877551,
+      "loop": false
+    },
+    "SA_Combo_11": {
+      "start": 12,
+      "end": 12.684580498866213,
+      "loop": false
+    },
+    "SA_Combo_12": {
+      "start": 14,
+      "end": 14.842766439909298,
+      "loop": false
+    },
+    "SA_Combo_2": {
+      "start": 16,
+      "end": 16.572154195011336,
+      "loop": false
+    },
+    "SA_Combo_3": {
+      "start": 18,
+      "end": 18.604126984126985,
+      "loop": false
+    },
+    "SA_Combo_4": {
+      "start": 20,
+      "end": 20.62312925170068,
+      "loop": false
+    },
+    "SA_Combo_5": {
+      "start": 22,
+      "end": 22.693061224489796,
+      "loop": false
+    },
+    "SA_Combo_6": {
+      "start": 24,
+      "end": 24.6762358276644,
+      "loop": false
+    },
+    "SA_Combo_7": {
+      "start": 26,
+      "end": 26.62312925170068,
+      "loop": false
+    },
+    "SA_Combo_8": {
+      "start": 28,
+      "end": 28.64530612244898,
+      "loop": false
+    },
+    "SA_Combo_9": {
+      "start": 30,
+      "end": 30.627392290249432,
+      "loop": false
+    },
+    "SA_Creation_color": {
+      "start": 32,
+      "end": 33.298095238095236,
+      "loop": false
+    },
+    "SA_Creation_stripes": {
+      "start": 35,
+      "end": 37.00172335600907,
+      "loop": false
+    },
+    "SA_Creation_wrap": {
+      "start": 39,
+      "end": 39.66988662131519,
+      "loop": false
+    },
+    "SA_Explosion_bomb1": {
+      "start": 41,
+      "end": 41.811292517006805,
+      "loop": false
+    },
+    "SA_Explosion_bomb2": {
+      "start": 43,
+      "end": 43.84095238095238,
+      "loop": false
+    },
+    "SA_Explosion_color1": {
+      "start": 45,
+      "end": 46.65850340136054,
+      "loop": false
+    },
+    "SA_Explosion_color2": {
+      "start": 48,
+      "end": 50.422448979591834,
+      "loop": false
+    },
+    "SA_Explosion_stripes1": {
+      "start": 52,
+      "end": 53.613197278911564,
+      "loop": false
+    },
+    "SA_Explosion_stripes2": {
+      "start": 55,
+      "end": 57.522947845804985,
+      "loop": false
+    },
+    "SA_LoopEffect_1": {
+      "start": 59,
+      "end": 63.61151927437642,
+      "loop": false
+    },
+    "SA_LoopEffect_2": {
+      "start": 65,
+      "end": 70.20807256235828,
+      "loop": false
+    },
+    "SA_LoopEffect_3": {
+      "start": 72,
+      "end": 83.07691609977324,
+      "loop": false
+    },
+    "SA_LoopEffect_4": {
+      "start": 85,
+      "end": 101.30770975056689,
+      "loop": false
+    },
+    "SA_LoopEffect_5": {
+      "start": 103,
+      "end": 106.91383219954649,
+      "loop": false
+    },
+    "SA_LoopEffect_6": {
+      "start": 108,
+      "end": 110.08208616780045,
+      "loop": false
+    },
+    "SA_Mix_colorLine1": {
+      "start": 112,
+      "end": 114.24417233560091,
+      "loop": false
+    },
+    "SA_Mix_wrapLine1": {
+      "start": 116,
+      "end": 118.44621315192744,
+      "loop": false
+    },
+    "SA_Mix_wrapLine2": {
+      "start": 120,
+      "end": 122.29832199546485,
+      "loop": false
+    },
+    "SA_Music_intro1": {
+      "start": 124,
+      "end": 154.17732426303854,
+      "loop": false
+    },
+    "SA_Music_intro2": {
+      "start": 156,
+      "end": 180.25174603174602,
+      "loop": false
+    },
+    "SA_Music_loop": {
+      "start": 182,
+      "end": 196.7692517006803,
+      "loop": false
+    },
+    "SA_Music_outro": {
+      "start": 198,
+      "end": 215.01891156462585,
+      "loop": false
+    },
+    "SA_Other_specialcandy1": {
+      "start": 217,
+      "end": 218.25414965986394,
+      "loop": false
+    },
+    "SA_Other_specialcandy2": {
+      "start": 220,
+      "end": 221.3818140589569,
+      "loop": false
+    },
+    "SA_Other_timewarning": {
+      "start": 223,
+      "end": 234.07696145124717,
+      "loop": false
+    },
+    "SA_Other_Trophy_bounce1": {
+      "start": 236,
+      "end": 237.13619047619048,
+      "loop": false
+    },
+    "SA_Other_Trophy_bounce2": {
+      "start": 239,
+      "end": 240.12081632653062,
+      "loop": false
+    },
+    "SA_Other_Trophy_bounce3": {
+      "start": 242,
+      "end": 243.11233560090702,
+      "loop": false
+    },
+    "SA_Other_trophy": {
+      "start": 245,
+      "end": 247.1669387755102,
+      "loop": false
+    },
+    "SA_State_cleared": {
+      "start": 249,
+      "end": 251.6996371882086,
+      "loop": false
+    },
+    "SA_State_nomoves": {
+      "start": 253,
+      "end": 255.78730158730158,
+      "loop": false
+    },
+    "SA_Switch_click1": {
+      "start": 257,
+      "end": 257.2408163265306,
+      "loop": false
+    },
+    "SA_Switch_click2": {
+      "start": 259,
+      "end": 259.2171882086168,
+      "loop": false
+    },
+    "SA_Switch_negative": {
+      "start": 261,
+      "end": 261.38181405895693,
+      "loop": false
+    },
+    "SA_Switch_sound": {
+      "start": 263,
+      "end": 263.37024943310655,
+      "loop": false
+    },
+    "SA_Swoosh_in_1": {
+      "start": 265,
+      "end": 267.4282993197279,
+      "loop": false
+    },
+    "SA_Swoosh_in_2": {
+      "start": 269,
+      "end": 271.291746031746,
+      "loop": false
+    },
+    "SA_Swoosh_ut_1": {
+      "start": 273,
+      "end": 274.85555555555555,
+      "loop": false
+    },
+    "SA_Swoosh_ut_2": {
+      "start": 276,
+      "end": 278.4065306122449,
+      "loop": false
+    },
+    "SA_Word_delicious_m3": {
+      "start": 280,
+      "end": 281.74585034013603,
+      "loop": false
+    },
+    "SA_Word_delicious_m4": {
+      "start": 283,
+      "end": 284.562358276644,
+      "loop": false
+    },
+    "SA_Word_delicious_m5": {
+      "start": 286,
+      "end": 287.7765079365079,
+      "loop": false
+    },
+    "SA_Word_delicious_m7": {
+      "start": 289,
+      "end": 290.3368707482993,
+      "loop": false
+    },
+    "SA_Word_delicious_m9": {
+      "start": 292,
+      "end": 293.67478458049885,
+      "loop": false
+    },
+    "SA_Word_delicious": {
+      "start": 295,
+      "end": 296.685306122449,
+      "loop": false
+    },
+    "SA_Word_divine_m3": {
+      "start": 298,
+      "end": 299.65913832199544,
+      "loop": false
+    },
+    "SA_Word_divine_m4": {
+      "start": 301,
+      "end": 302.6034467120181,
+      "loop": false
+    },
+    "SA_Word_divine_m6": {
+      "start": 304,
+      "end": 305.5302494331066,
+      "loop": false
+    },
+    "SA_Word_divine_m9": {
+      "start": 307,
+      "end": 308.8362358276644,
+      "loop": false
+    },
+    "SA_Word_divine": {
+      "start": 310,
+      "end": 311.5560544217687,
+      "loop": false
+    },
+    "SA_Word_sugarcrush_m1": {
+      "start": 313,
+      "end": 315.27990929705214,
+      "loop": false
+    },
+    "SA_Word_sugarcrush_m2": {
+      "start": 317,
+      "end": 318.8989569160998,
+      "loop": false
+    },
+    "SA_Word_sugarcrush_m3": {
+      "start": 320,
+      "end": 322.1279365079365,
+      "loop": false
+    },
+    "SA_Word_sugarcrush_m5": {
+      "start": 324,
+      "end": 325.8572789115646,
+      "loop": false
+    },
+    "SA_Word_sweet_m3": {
+      "start": 327,
+      "end": 328.55455782312924,
+      "loop": false
+    },
+    "SA_Word_sweet_m4": {
+      "start": 330,
+      "end": 331.627619047619,
+      "loop": false
+    },
+    "SA_Word_sweet_m6": {
+      "start": 333,
+      "end": 334.5504308390023,
+      "loop": false
+    },
+    "SA_Word_sweet_m8": {
+      "start": 336,
+      "end": 337.4658049886621,
+      "loop": false
+    },
+    "SA_Word_sweet": {
+      "start": 339,
+      "end": 340.87451247165535,
+      "loop": false
+    },
+    "SA_Word_tasty_m3": {
+      "start": 342,
+      "end": 343.5394557823129,
+      "loop": false
+    },
+    "SA_Word_tasty_m4": {
+      "start": 345,
+      "end": 346.4984126984127,
+      "loop": false
+    },
+    "SA_Word_tasty_m5": {
+      "start": 348,
+      "end": 349.19319727891155,
+      "loop": false
+    },
+    "SA_Word_tasty_m8": {
+      "start": 351,
+      "end": 352.38426303854874,
+      "loop": false
+    },
+    "SA_Word_tasty": {
+      "start": 354,
+      "end": 355.65555555555557,
+      "loop": false
+    },
+    "SA_CandyLand_1": {
+      "start": 357,
+      "end": 358.8118820861678,
+      "loop": false
+    },
+    "SA_CandyLand_2": {
+      "start": 360,
+      "end": 361.413514739229,
+      "loop": false
+    },
+    "SA_CandyLand_3": {
+      "start": 363,
+      "end": 365.42539682539683,
+      "loop": false
+    },
+    "SA_CandyLand_4": {
+      "start": 367,
+      "end": 369.3078458049887,
+      "loop": false
+    },
+    "SA_LoopEffect_colorcolor": {
+      "start": 371,
+      "end": 372.42131519274375,
+      "loop": true
+    },
+    "SA_Music_loopwav": {
+      "start": 374,
+      "end": 388.8,
+      "loop": false
+    },
+    "SA_Music_loopwav2": {
+      "start": 390,
+      "end": 404.8,
+      "loop": true
+    },
+    "SA_Switch_mark1": {
+      "start": 406,
+      "end": 425.65097505668933,
+      "loop": false
+    },
+    "SA_Word_delicious_m10": {
+      "start": 427,
+      "end": 428.27673469387753,
+      "loop": false
+    },
+    "SA_Word_divine_m10": {
+      "start": 430,
+      "end": 432.29986394557824,
+      "loop": false
+    },
+    "SA_Word_sugarcrush_m6": {
+      "start": 434,
+      "end": 436.14566893424035,
+      "loop": false
+    },
+    "SA_Word_sweet_m9": {
+      "start": 438,
+      "end": 439.49387755102043,
+      "loop": false
+    },
+    "SA_Word_tasty_m9": {
+      "start": 441,
+      "end": 442.63120181405895,
+      "loop": false
+    }
+  }
+}

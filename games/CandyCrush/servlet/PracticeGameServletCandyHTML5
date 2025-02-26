@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server slot="2305843009226630426" response="0" playtime="4" playtime-ms="4244">
+<game height="600" path="/games/CandyCrush.swf?_v=19rq9ka" playertype="flash" width="755"><gamedata randomseed="1717504298" version="1">
+ <musicOn>true</musicOn>
+ <soundOn>true</soundOn>
+ <isShortGame>false</isShortGame>
+ <booster_1>0</booster_1>
+ <booster_2>0</booster_2>
+ <booster_3>0</booster_3>
+ <booster_4>0</booster_4>
+ <booster_5>0</booster_5>
+ <bestScore>132730</bestScore>
+ <bestChain>14</bestChain>
+ <bestLevel>4</bestLevel>
+ <bestCrushed>12</bestCrushed>
+ <bestMixed>4</bestMixed>
+    <text id="game.nomoves">No more moves!</text>
+    <text id="outro.trophy.two">scored {0} in one game</text>
+    <text id="outro.opengame">Please register to play the full game</text>
+    <text id="outro.time">Game ends in {0} seconds</text>
+    <text id="outro.chain">Longest chain</text>
+    <text id="outro.combo_color_line">Super Stripes Created</text>
+    <text id="outro.trophy.three">made {0} combined candy in one game</text>
+    <text id="outro.now">Now</text>
+    <text id="intro.info2">You can also combine the special sweets for additional effects by switching them with each other. Try these combinations for a taste you will not forget: </text>
+    <text id="intro.time">Game starts in {0} seconds</text>
+    <text id="intro.info1">Match 3 Candy of the same colour to crush them. Matching 4 or 5 in different formations generates special sweets that are extra tasty.</text>
+    <text id="outro.score">Score</text>
+    <text id="outro.level">Level reached</text>
+    <text id="outro.combo_color_color">All Clear Created</text>
+    <text id="outro.crushed">Candy crushed</text>
+    <text id="outro.trophy.one">crushed {0} candy in one game</text>
+    <text id="outro.bestever">Best ever</text>
+    <text id="outro.title">Game Over</text>
+    <text id="intro.title">Play like this:</text>
+    <text id="outro.combo_color_wrapper">Double Colour Bombs Created</text>
+    <text id="outro.combo_wrapper_line">Mega-Candy Created</text>
+</gamedata></game>
+</server>
